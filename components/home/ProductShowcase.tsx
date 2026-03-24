@@ -22,7 +22,7 @@ const products = [
     color: 'from-telemons-orange-primary to-telemons-orange-dark'
   },
   {
-    title: 'Keystone Jacks',
+    title: 'Keystossssne Jacks',
     description: 'Reliable connectivity solutions for modern networks',
     image: '/images/products/keystone-jacks.jpg',
     link: '/products/keystone-jacks',

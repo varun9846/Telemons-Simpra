@@ -47,7 +47,7 @@ const productMenuItems: ProductMenuItem[] = [
 
   },
   {
-    name: 'Connectors,Products & Enterprises ',
+    name: 'Connector,Products & Enterprises ',
     href: '/products/connectors-products-enterprises',
 
   },

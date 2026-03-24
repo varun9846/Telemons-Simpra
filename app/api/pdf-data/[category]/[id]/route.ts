@@ -1,17 +1,10 @@
-/**
- * PDF Data API Route
- * Provides a unified endpoint to fetch product data for PDF generation
- * Supports all product categories with consistent data format
- */
+
 
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { convertDatabaseRecordToPDFData } from '@/lib/utils/pdfDataConverter';
 
-/**
- * GET /api/pdf-data/[category]/[id]
- * Fetches product data for PDF generation from any category
- */
+
 export async function GET(
   request: NextRequest,
   { params }: { params: { category: string; id: string } }
